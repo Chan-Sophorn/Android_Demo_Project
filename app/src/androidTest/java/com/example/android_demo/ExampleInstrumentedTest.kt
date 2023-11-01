@@ -1,4 +1,4 @@
-package com.example.simple_login
+package com.example.android_demo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

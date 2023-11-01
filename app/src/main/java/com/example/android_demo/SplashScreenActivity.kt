@@ -1,4 +1,4 @@
-package com.example.simple_login
+package com.example.android_demo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

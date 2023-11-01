@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.simple_login"
+    namespace = "com.example.android_demo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.simple_login"
+        applicationId = "com.example.android_demo"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
