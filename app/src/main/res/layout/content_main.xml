@@ -20,7 +20,18 @@
             <FrameLayout
                 android:id="@+id/main_fragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Menu"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+            </FrameLayout>
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -29,12 +40,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is my content area." />
+            android:text="Hi!. This is menu page" />
     </LinearLayout>
 
 </LinearLayout>
