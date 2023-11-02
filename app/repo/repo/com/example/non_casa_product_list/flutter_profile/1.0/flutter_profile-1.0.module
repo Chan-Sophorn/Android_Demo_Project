@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.non_casa_product_list",
+    "module": "flutter_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.aar",
+          "url": "flutter_profile-1.0.aar",
+          "size": 12769178,
+          "sha512": "198f15c2cbc99a6d0fe18561865038e0cec2b70ced91e68eb3684bf8e98d6457f3daef2e1bb42a8bcfc0a1e6e871c4f42984912de4c2c15e309830e734c8d033",
+          "sha256": "04f7d16117f525bbf040ffe09ff2dc20ce6a2cf1a11fc6cdf85e7ced69d01b90",
+          "sha1": "3be4e35428b3277a360e7c1aaf4281c0c742723f",
+          "md5": "4043f7b58288bd9f86462d00a39a546a"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.aar",
+          "url": "flutter_profile-1.0.aar",
+          "size": 12769178,
+          "sha512": "198f15c2cbc99a6d0fe18561865038e0cec2b70ced91e68eb3684bf8e98d6457f3daef2e1bb42a8bcfc0a1e6e871c4f42984912de4c2c15e309830e734c8d033",
+          "sha256": "04f7d16117f525bbf040ffe09ff2dc20ce6a2cf1a11fc6cdf85e7ced69d01b90",
+          "sha1": "3be4e35428b3277a360e7c1aaf4281c0c742723f",
+          "md5": "4043f7b58288bd9f86462d00a39a546a"
+        }
+      ]
+    }
+  ]
+}

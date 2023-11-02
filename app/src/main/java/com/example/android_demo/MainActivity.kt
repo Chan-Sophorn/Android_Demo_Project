@@ -9,6 +9,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -19,7 +20,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        toolbar = findViewById(R.id.toolbar)
+        startActivity(
+            FlutterActivity
+            .withCachedEngine("my_engine_id")
+            .build(this))
+
+        /*toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
         drawerLayout = findViewById(R.id.drawer_layout)
@@ -30,7 +36,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
-        navView.setNavigationItemSelectedListener(this)
+        navView.setNavigationItemSelectedListener(this)*/
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

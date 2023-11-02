@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ryanheise.just_audio",
+    "module": "just_audio_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "just_audio_debug-1.0.aar",
+          "url": "just_audio_debug-1.0.aar",
+          "size": 29793,
+          "sha512": "d8a3dc84ff70d3139529a246aa2db32c424bf66093bd51973a4e28877b25a8f3db79f7abd0df6d891182187ed16c5bc1046e6ac92db7652375e194095b31ec57",
+          "sha256": "af7069e9f45c7df633b3e36b5c709354927d7b32f0a9368f42b7699c8d7f1b05",
+          "sha1": "174525111491c7806d05ca34377375cb0b9b62bf",
+          "md5": "9075e9be7deaa228174f7efa97f7f959"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-dash",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-smoothstreaming",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "just_audio_debug-1.0.aar",
+          "url": "just_audio_debug-1.0.aar",
+          "size": 29793,
+          "sha512": "d8a3dc84ff70d3139529a246aa2db32c424bf66093bd51973a4e28877b25a8f3db79f7abd0df6d891182187ed16c5bc1046e6ac92db7652375e194095b31ec57",
+          "sha256": "af7069e9f45c7df633b3e36b5c709354927d7b32f0a9368f42b7699c8d7f1b05",
+          "sha1": "174525111491c7806d05ca34377375cb0b9b62bf",
+          "md5": "9075e9be7deaa228174f7efa97f7f959"
+        }
+      ]
+    }
+  ]
+}
